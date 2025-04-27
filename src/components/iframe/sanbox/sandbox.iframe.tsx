@@ -6,11 +6,11 @@ const SandBoxIframe: React.FC<SandBoxIframeProps> = ({
 }: SandBoxIframeProps) => {
   return (
     <>
-      <div className="p-6 min-h-full h-full bg-gray-200">
+      <div className=" min-h-full h-full bg-gray-200 p-2">
         <iframe
           src={url}
           title="CodeSandbox"
-          className="w-full h-full  rounded-lg"
+          className={`w-full h-full rounded-lg`}
         />
       </div>
     </>
